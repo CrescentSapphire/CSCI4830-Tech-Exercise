@@ -51,6 +51,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'techExercise.urls'
 
+STATIC_ROOT = os.path.join(BASE_DIR, "techExercise/static")
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
