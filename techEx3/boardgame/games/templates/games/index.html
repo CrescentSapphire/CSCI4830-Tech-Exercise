@@ -1,0 +1,9 @@
+{% load render_table from django_tables2 %}
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Boardgame Table!</p>
+    <a class="btn btn sm btn outline-secondary" href="{% url 'add' %}">Add</a>
+    {%render_table table %}
+</body>
+</html>
